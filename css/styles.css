@@ -42,7 +42,7 @@ padding: 0;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
 .div-head{
-    display: flex;
+    
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -55,18 +55,14 @@ padding: 0;
         /* Menu Nav */
         
         
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-align-items: center; 
+
     }
     .link{
      text-decoration: none;
     }
     
     .ul-header{
-        display: flex;
-        flex-direction: row;
+        
         align-items: flex-start;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -74,12 +70,14 @@ align-items: center;
         
     }
     .img{
-        display: block
+        
     }
     .li-header{
-        flex-direction: row;
+       
 
     }
+ 
+       
     .logo-link {
         /* Web */
         
@@ -94,11 +92,11 @@ text-decoration: none;
 /* identical to box height, or 117% */
 
 
-display: flex;
-align-items: center;
+
 letter-spacing: 0.03em;
 text-transform: uppercase;
     }
+   
     .logo-linktwo {
        /*Studio*/
       
@@ -114,15 +112,14 @@ text-decoration: none;
 
 /* identical to box height, or 117% */
 
-display: flex;
-align-items: center;
+
 letter-spacing: 0.03em;
 text-transform: uppercase;
     }
     .ul-header {
         
- display: flex;
-    flex-direction: row;
+ 
+    
     align-items: flex-start;
     gap: 40px;;
 
@@ -136,13 +133,13 @@ text-transform: uppercase;
     
  
     .li-header{
-        display: list-item;
+      
         font-family: "Roboto";
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        display: block;
+        
         letter-spacing: 0.02em;
         color: var(--color-title-h2-h3-darkbg);
         background-color: #FFFFFF;
@@ -160,7 +157,7 @@ text-transform: uppercase;
     
     .li-headera{ 
         position: relative; 
-        display: list-item;
+       
         font-family: "Roboto";
         font-style: normal;
         font-weight: 500;
@@ -173,7 +170,7 @@ text-transform: uppercase;
         cursor: pointer;
         flex-direction: row;
         text-decoration: none;
-        display: block;
+        
         list-style: none;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -227,7 +224,7 @@ font-family: 'Roboto';
 font-style: normal;
 text-decoration: none;
 list-style: none;
-display: inline;
+
     }
     .gmail{
        
@@ -267,16 +264,20 @@ display: inline;
 
 /* Header 1 */
 
-font-family: "Roboto", sans-serif;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-line-height: 1.07;
-font-size: 56px;
+font-size: 36px;
+line-height: 40px;
+/* or 111% */
+margin-left: 56px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 color: var(--background-color);
 /* or 107% */
-margin: 0 auto;
-margin-bottom: 48px;
-text-align: center;
+margin-bottom: 112px;
+
 letter-spacing: 0.02em;
     }
     .sectionone-button{
@@ -292,7 +293,7 @@ color:#FFFFFF;
 cursor: pointer;
 margin: 0 auto;
 /* Auto layout */
-display: block;
+margin-left: 129px;
 border: none;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
