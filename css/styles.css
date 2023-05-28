@@ -129,6 +129,7 @@ gap: 40px;;
    
 }
 .list{
+    
  list-style: none;
  margin: 0;
  padding: 0;
@@ -1576,6 +1577,45 @@ color: #434455;
  .burg-email:focus{
     color: #434455;
  }
+ .li-number{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 48px;
+
+ }
+ .li-mail{
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+
+
+ }
+ .a-mobile{
+list-style: none;
+    text-decoration: none;
+ }
+.blue{
+    color: #4D5AE5;
+}
+.grey{
+    color: #434455;
+}
   .a-contacts{
     font-family: 'Roboto';
     
@@ -1660,8 +1700,9 @@ flex-direction: column;
     
   }
   .mobile-contacts{
-    
-    
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 48px;
   }
   .mobile-active{
     font-family: 'Roboto';
