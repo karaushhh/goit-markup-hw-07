@@ -1558,23 +1558,28 @@ width:100%;
   }
   .burg-email{
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        /* identical to box height, or 120% */
-    
-        letter-spacing: 0.02em;
-    
-        /* SLATE */
-    
-        color: #434455;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
         padding-bottom: 48px;
 
   }
-  
+ .burg-email:hover,
+ .burg-email:focus{
+    color: #434455;
+ }
   .a-contacts{
-    text-decoration: none;
+    font-family: 'Roboto';
+    
+        text-decoration: none;
 
   }
   .icon-close-black-18dp-2-1{
@@ -1600,12 +1605,14 @@ width:100%;
   
   .menu-container {
     position: fixed;
+display: flex;
+flex-direction: column;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 37px;
+    padding-top: 80px;
     background-color: #ffffff;
     z-index: 999;
 
@@ -1627,22 +1634,24 @@ width:100%;
 
 
  .mobile-menu{
-    text-decoration: none;
+   text-decoration: none; 
     list-style: none;
  }
  .mobile-menu {
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-top: 80px;
-    margin-bottom: 284px;
+    margin-bottom: auto;
+   
 }
  .mobile-menu .link {
     display: block;
-    padding: 10px;
+    margin-bottom: 40px;
+    text-decoration: none;
 }
 
   .mobile-social{
+    justify-content: flex-start;
     display: flex;
     flex-direction: row;
     gap: 56px;
@@ -1654,5 +1663,34 @@ width:100%;
     
     
   }
-  
+  .mobile-active{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* OCEAN */
+
+color: #404BBF;
+  }
+ .mobile-nav{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+ }
 }
