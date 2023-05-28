@@ -1627,7 +1627,7 @@ width:100%;
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+   
   }
   
 
@@ -1645,32 +1645,9 @@ width:100%;
 }
  .mobile-menu .link {
     display: block;
-    text-decoration: none;
+    padding: 10px;
 }
- .mobile-active{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #404bbf;
-    background-color: #FFFFFF;
-    margin-bottom: 40px;
- }
- .mobile-nav{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;   
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--color-title-h2-h3-darkbg);
-        background-color: #FFFFFF;
-        margin-bottom: 40px;
- }
+
   .mobile-social{
     display: flex;
     flex-direction: row;
