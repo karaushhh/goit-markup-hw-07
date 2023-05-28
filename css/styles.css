@@ -1526,12 +1526,12 @@ width:100%;
 }
 
 .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    min-height: 24px;
+    min-width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    margin-left: auto;
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -1540,7 +1540,59 @@ width:100%;
     border-radius: 50%;
     outline: none;
   }
-  
+  .burg-number{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        /* identical to box height, or 111% */
+    
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        /* IRIS */
+    
+        color: #4D5AE5;
+        padding-bottom: 40px;
+  }
+  .burg-email{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+    
+        color: #434455;
+        padding-bottom: 48px;
+
+  }
+  .mobile-kelvin{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
+    margin-bottom: 369px;
+  }
+  .a-contacts{
+    text-decoration: none;
+
+  }
+  .icon-close-black-18dp-2-1{
+    color: #2E2F42;
+  }
+  .js-close-menu{
+    position: absolute;
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
   @media (min-width: 768px) {
     .menu-toggle {
       display: none;
@@ -1558,10 +1610,11 @@ width:100%;
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
-    background-color: #3f51b5;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #ffffff;
     z-index: 999;
-  
+
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
@@ -1577,16 +1630,58 @@ width:100%;
     color: #fff;
   }
   
-  .mobile-menu {
+
+
+ .mobile-menu{
+    text-decoration: none;
+    list-style: none;
+ }
+ .mobile-menu {
     padding: 0;
     margin: 0;
     list-style: none;
+    margin-top: 80px;
+    margin-bottom: 284px;
+}
+ .mobile-menu .link {
+    display: block;
+    text-decoration: none;
+}
+ .mobile-active{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #404bbf;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+ }
+ .mobile-nav{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;   
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--color-title-h2-h3-darkbg);
+        background-color: #FFFFFF;
+        margin-bottom: 40px;
+ }
+  .mobile-social{
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    
+    
+    
+  }
+  .mobile-contacts{
+    
+    
   }
   
-  .mobile-menu .link {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
 }

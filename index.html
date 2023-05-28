@@ -17,7 +17,7 @@
       <div class="div-head container">
         <nav class="nav-header">
         <a href="./index.html" class="logo-link link">Web<span class="logo-linktwo">Studio</span></a>
-        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button class="menu-toggle js-open-menu" image.pngaria-expanded="false" aria-controls="mobile-menu">
         <svg width="32" height="22" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <use href="./images/icons.svg#icon-burger"></use>        
         </svg>
@@ -160,19 +160,6 @@
 </div>
 </footer>
 <div data-modal class="backdrop is-hidden">
-  <div class="menu-container js-menu-container" id="mobile-menu">
-    <button class="menu-toggle js-close-menu">
-      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-      </svg>
-    </button>
-    <ul class="mobile-menu">
-      <li><a href="" class="link">About</a></li>
-      <li><a href="" class="link">Products</a></li>
-      <li><a href="" class="link">Contacts</a></li>
-      <li><a href="" class="link">Career</a></li>
-    </ul>
-  </div>
   <div class="modal">
       <button type="button" data-modal-close class="modal-button">
           <svg class="modal-button-close-svg" width="8" height="8">
@@ -210,6 +197,29 @@
     <button type="button" class="send">Send</button>
       </form>
   </div>
+</div>
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="modal-button-close-svg" width="8" height="8">
+      <use href="./images/icons.svg#icon-modal-close"></use>
+  </svg>
+    </a>
+</button>
+  <ul class="mobile-menu mobile-kelvin">
+    <li><a href="./index.html" class="mobile-active link">Studio</a></li>
+    <li><a href="./portfolio.html" class="mobile-nav link">Portfolio</a></li>
+    <li><a href="" class="mobile-nav link">Contacts</a></li>
+  </ul>
+  <ul class="mobile-contacts list">
+    <li class="burg-number"><a href="tel:11000111111" class="a-contacts">+11 (000) 111-11-11</a></li>
+    <li class="burg-email"><a href="mailto:info@devstudio.com" class="a-contacts">info@devstudio.com</a></li>
+  </ul>
+  <ul class="mobile-social list">
+    <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+    <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+    <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+    <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg> </a></li>  
+  </ul>
 </div>
 <script src="./modal.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
