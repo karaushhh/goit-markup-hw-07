@@ -1527,20 +1527,22 @@ width:100%;
 }
 
 .menu-toggle {
-    min-height: 24px;
-    min-width: 24px;
+    min-height: 40px;
+    min-width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
+
     margin: 0;
     padding: 0;
+    margin-left: 180px;
     background-color: transparent;
     cursor: pointer;
     border: none;
     border-radius: 50%;
     outline: none;
   }
+  
   .burg-number{
     font-family: 'Roboto';
         font-style: normal;
@@ -1734,4 +1736,79 @@ text-transform: capitalize;
 
 color: #2E2F42;
  }
+}
+
+@media screen and (min-width: 429px) {
+    .menu-toggle{
+        display: none;
+    }
+    }
+    @media screen and (max-width: 1201px) {
+        .menu-toggle{
+            display: none;
+        }
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .ul-header{
+    
+    }
+    .a-social{
+        
+    }
+    .rectangle{
+        display: none;
+    }
+    .container{
+        max-width: 768px;
+    }
+    .ul-adresa{
+        display: block;
+        
+    }
+    .gmail{
+        margin-bottom: 12px;
+    }
+.sectione-h{
+    max-width: 768px;
+}
+.sectionthree{
+    display:none;
+}
+.sectiontwo{
+
+}
+.ul-sectiontwo{
+   
+}
+.lisectiontwo{
+    
+}
+
+
+
+.sectionfour-ul{
+    flex-wrap:wrap;
+    margin-left: 93px;
+}
+
+.ul-sectionfive{
+    max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 72px 16px;
+        width: 576px;
+}
+.li-sectionfive{
+    width: 168px;
+        gap: 24px;
+}
 }
