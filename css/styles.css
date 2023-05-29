@@ -999,7 +999,7 @@ color: var(--color-resst);
 .ul-socialf{
     display: flex;
     gap: 16px;
-    margin-top: 16px;
+    
 }
 .li-socialf{
     width: 40px;
@@ -1474,13 +1474,13 @@ text-transform: capitalize;
 
 }
 .logo-linkthree, logo-linkfour{
-    display:flex;
+    
     justify-content: center;
 }
 .social-media{
-    display:flex;
+   
     justify-content: center;
-    margin-top: 72px;
+    
 }
 .ul-socialf{
     display:flex;
@@ -1742,9 +1742,15 @@ color: #2E2F42;
     .menu-container{
         display: none;
     }
+    .mobile-menu{
+        display: none;
+    }
     }
     @media screen and (min-width: 1441px) {
         .menu-container{
+            display: none;
+        }
+        .mobile-menu{
             display: none;
         }
     }
@@ -1877,16 +1883,19 @@ color: #434455;
     display: flex;
 }
 .footerdiv{
-    max-width: 768px;
+    width: 453px;
+    display: flex;
+    flex-wrap: wrap;
+  
 }
 .logo-linkthree{
-    display: flex;
-    margin-bottom: 16px;
+   
+    
     color: var(--color-partlogo-buttons);
 }
 .div-footer{
-    display: flex;
-    margin-left: 93px;
+    margin-right: 165px;
+    
 }
 .footer-p{
     font-family: 'Roboto';
@@ -1915,7 +1924,7 @@ color: #434455;
     margin-left: 0;
 }
 .ul-socialf{
-    margin-right: 149px;
+   
 
 }
 .div-subscribe{
@@ -1924,12 +1933,12 @@ color: #434455;
     margin: 0 ;
     align-content: center;
     flex-direction: column;
-    width: 453px;
+   
 }
 .p-form {
     display: flex;
     justify-content: normal;
-    margin-left: 175px;
+ 
 }
 .foot-form{
     display: flex;
@@ -1946,7 +1955,7 @@ color: #434455;
             opacity: 0.6;
         width: 264px;
         margin-left: 0;
-        margin-left: 175px;
+       
 }
 .foot-input::placeholder{
     font-family: 'Roboto';
@@ -1966,6 +1975,7 @@ color: #434455;
     margin: 0 auto;
     padding-bottom: 0;
     padding-top: 0;
+    margin-top: 15px;
     margin-left: 24px;
     height: 40px;
 }
