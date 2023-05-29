@@ -1354,7 +1354,7 @@ color:var(--body-text);
 }
 
 
- @media screen and (max-width: 428px){
+ @media screen and (min-width: 428px){
     .ul-header, .adresa {
         display: none;
               
@@ -1739,31 +1739,12 @@ color: #2E2F42;
 }
 
 @media screen and (min-width: 429px) {
-    .menu-toggle{
-        display: none;
-        
-    }
-    .mobile-menu{
-        display: none;
-    }
-    .mobile-social{
-        display: none;
-    }
-    .mobile-contacts{
+    .menu-container{
         display: none;
     }
     }
-    @media screen and (max-width: 1441px) {
-        .menu-toggle{
-            display: none;
-        }
-        .mobile-menu{
-            display: none;
-        }
-        .mobile-social{
-            display: none;
-        }
-        .mobile-contacts{
+    @media screen and (min-width: 1441px) {
+        .menu-container{
             display: none;
         }
     }
@@ -1774,7 +1755,23 @@ color: #2E2F42;
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
+    .ul-header{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 50px;
+    }
+    .li-header{
+        padding: 0;
+    }
+    .adresa {
+         display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    }
     .rectangle{
         display: none;
     }
@@ -1788,7 +1785,20 @@ color: #2E2F42;
         gap: 12px;
         margin-top: 7px;
     }
-    
+    .gmail{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+letter-spacing: 0.04em;
+
+/* SLATE */
+
+color: #434455;
+    }
     
 .sectione-h{
     max-width: 768px;
@@ -1834,10 +1844,17 @@ color: #2E2F42;
     
 }
 .sectionfour-ul{
-   
-    flex-wrap:wrap;
-    margin-left: 93px;
+ 
+    display: flex;
+        flex-wrap: wrap;
+        margin-left: 93px;
+        gap: 64px 24px;
 }
+
+.sectionfour-li{
+    margin: 0;
+}   
+    
 
 .ul-sectionfive{
     max-width: 768px;
@@ -1859,10 +1876,28 @@ color: #2E2F42;
 .footer{
     display: flex;
 }
+.footerdiv{
+    max-width: 768px;
+}
 .logo-linkthree{
     display: flex;
     margin-bottom: 16px;
     color: var(--color-partlogo-buttons);
+}
+.div-footer{
+    display: flex;
+    margin-left: 93px;
+}
+.footer-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+    margin: 0;
 }
 .logo-linkfour{
     font-family: 'Raleway';
@@ -1876,23 +1911,68 @@ color: #2E2F42;
     text-transform: uppercase;
     color: var(--color-resst);
 }
-.footerdiv{
-    display: flex;
+.social-media{
+    margin-left: 0;
 }
-.footer-p{
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    max-width: 264px;
-    margin: 0;
-}
+.ul-socialf{
+    margin-right: 149px;
 
-.footer-div{
-    margin-left: 93px;
+}
+.div-subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 ;
+    align-content: center;
+    flex-direction: column;
+    width: 453px;
+}
+.p-form {
+    display: flex;
+    justify-content: normal;
+    margin-left: 175px;
+}
+.foot-form{
+    display: flex;
+    margin-left: 0;
+}
+.foot-input{
+    border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        width: 100%;
+        margin-bottom: 16px;
+        color: #FFFFFF;
+        
+            opacity: 0.6;
+        width: 264px;
+        margin-left: 0;
+        margin-left: 175px;
+}
+.foot-input::placeholder{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        /* identical to box height, or 200% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+}
+.button-form{
+    display: flex;
+        justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 24px;
+    height: 40px;
+}
+.menu-container{
+    display: none;
+}
+.modal{
+    margin: 0 auto;
 }
 }
