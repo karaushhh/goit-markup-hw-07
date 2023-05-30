@@ -1999,6 +1999,15 @@ color: #434455;
     margin-left: 24px;
     height: 40px;
 }
+.port-mainul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 72px;
+}
 .menu-container{
     display: none;
 }
@@ -2006,7 +2015,7 @@ color: #434455;
     margin: 0 auto;
 }
 }
-@media only screen and (min-width: 320px){
+@media only screen and (max-width: 320px){
     .container {
         max-width: 320px;
     }
@@ -2024,7 +2033,7 @@ margin-bottom: 23.5px;
  }
  .container{
     max-width: 320px;
-   
+   width: auto;
  }
 .ul-sectiontwo{
     display:block;
