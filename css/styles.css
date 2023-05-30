@@ -2551,6 +2551,9 @@ color: #434455;
         display: flex;
         margin-left: 0;
      }
+     .foot-input{
+        margin-left: 80px;
+     }
      .div-footer{
        margin-right: 0;
         margin-left: 0;
@@ -2560,7 +2563,7 @@ color: #434455;
         margin-top: 0;
      }
      .p-form{
-        margin-left: 0;
+        margin-left: 80px;
      }
      .div-subscribe{
         margin-left: auto;
