@@ -2570,3 +2570,52 @@ color: #434455;
 
      }
     }
+
+    @media only screen and (max-width: 428px) {
+        .img{
+            background-image:url(../images/Dark-bg_mob@1x.jpg);
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .img{
+                background-image:url(../images/Dark-bg_mob@2x.jpg);
+            }
+        }
+    }
+    
+    @media only screen and (min-width: 429px) and (max-width: 768px) {
+        .img{
+            background-image: url(../images/Dark-bg_mob@1x.jpg);
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .img{
+                background-image:url(../images/Dark-bg_mob@2x.jpg);
+            }
+        }
+    }
+    
+    @media only screen and (min-width: 769px) {
+        .img{
+            background-image:url(../images/Dark-bg_mob@1x.jpg);
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .img{
+                background-image:url(../images/Dark-bg_mob@2x.jpg);
+            }
+        }
+    }
+    
+    @media only screen and (min-width: 1158px) {
+        .img{
+            background-image:url(../images/1x2x/img-name.jpg);
+        }
+    }
+    
