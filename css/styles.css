@@ -48,7 +48,6 @@ padding: 0 15px;
 margin: 0 auto;
 }
 .container{
-
 }
 
 .nav-header {
@@ -1354,7 +1353,7 @@ color:var(--body-text);
 }
 
 
- @media screen and (min-width: 428px){
+ @media screen and (min-width: 428px) {
     .ul-header, .adresa {
         display: none;
               
@@ -1608,6 +1607,37 @@ letter-spacing: 0.02em;
 
 
  }
+ .port-section{
+    
+    
+    
+ }
+ .footer{
+    display: block;
+ }
+ .social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+ }
+ .logo-linkthree{
+    display: flex;
+    justify-content: center;
+ }
+ .port-mainul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+
+    margin-bottom: 72px;
+}
+.button-linkp{
+    padding: 8px 16px;
+}
  .a-mobile{
 list-style: none;
     text-decoration: none;
@@ -1634,7 +1664,7 @@ list-style: none;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .menu-toggle {
       display: none;
     }
@@ -1738,7 +1768,7 @@ color: #2E2F42;
  }
 }
 
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 768px) {
     .menu-container{
         display: none;
     }
@@ -1746,20 +1776,7 @@ color: #2E2F42;
         display: none;
     }
     }
-    @media screen and (min-width: 1441px) {
-        .menu-container{
-            display: none;
-        }
-        .mobile-menu{
-            display: none;
-        }
-    }
-
-
-
-
-
-
+   
 
 @media only screen and (min-width: 768px){
     .ul-header{
@@ -1788,8 +1805,9 @@ color: #2E2F42;
         display: flex;
         flex-direction: column;
         gap: 0;
-        gap: 12px;
+        gap: 7px;
         margin-top: 7px;
+        align-items: baseline;
     }
     .gmail{
         font-family: 'Roboto';
@@ -1872,18 +1890,21 @@ color: #434455;
         width: 576px;
 }
 .li-sectionfive{
-    width: 168px;
+    width: 768px;
         gap: 24px;
 }
 .port-sectionul{
     display: flex;
     flex-wrap: wrap;
+    gap: 0px 17px;
+    row-gap: 72px;
 }
+
 .footer{
     display: flex;
 }
 .footerdiv{
-    width: 453px;
+    max-width: 768px;
     display: flex;
     flex-wrap: wrap;
   
@@ -1894,8 +1915,9 @@ color: #434455;
     color: var(--color-partlogo-buttons);
 }
 .div-footer{
-    margin-right: 165px;
-    
+
+    margin-right: 24px;    
+    margin-left: 108px;
 }
 .footer-p{
     font-family: 'Roboto';
@@ -1938,11 +1960,11 @@ color: #434455;
 .p-form {
     display: flex;
     justify-content: normal;
- 
+    margin-left: 108px;
 }
 .foot-form{
     display: flex;
-    margin-left: 0;
+    margin-left: 108px;
 }
 .foot-input{
     border: 1px solid #FFFFFF;
