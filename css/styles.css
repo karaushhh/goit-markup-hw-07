@@ -2544,7 +2544,8 @@ color: #434455;
      }
      .sectiontwo-h{
         width: 264px;
-        
+        display: flex;
+        justify-content: flex-start;
         font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -2611,50 +2612,51 @@ color: #434455;
     }
 
     @media only screen and (max-width: 428px) {
-        .img{
-            background-image:url(../images/Dark-bg_mob@1x.jpg);
+        .sectionone{
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/Dark-bg_mob@1x.jpg);
+            
         }
     
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .img{
-                background-image:url(../images/Dark-bg_mob@2x.jpg);
+            .sectionone{
+                background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/Dark-bg_mob@2x.jpg);
             }
         }
     }
     
     @media only screen and (min-width: 429px) and (max-width: 768px) {
-        .img{
-            background-image: url(../images/Dark-bg_mob@1x.jpg);
+        .sectionone{
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/Dark-bg_mob@1x.jpg);
         }
     
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .img{
-                background-image:url(../images/Dark-bg_mob@2x.jpg);
+            .sectionone{
+                background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/Dark-bg_mob@2x.jpg);
             }
         }
     }
     
     @media only screen and (min-width: 769px) {
-        .img{
-            background-image:url(../images/Dark-bg_mob@1x.jpg);
+        .sectionone{
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/Dark-bg_mob@1x.jpg);
         }
     
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .img{
-                background-image:url(../images/Dark-bg_mob@2x.jpg);
+            .sectionone{
+                background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/Dark-bg_mob@2x.jpg);
             }
         }
     }
     
     @media only screen and (min-width: 1158px) {
-        .img{
-            background-image:url(../images/1x2x/img-name.jpg);
+        .sectionone{
+            background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/photo1x2x/img-name.jpg);
         }
     }
     
