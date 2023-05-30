@@ -1914,7 +1914,7 @@ color: #434455;
     color: var(--color-partlogo-buttons);
 }
 .div-footer{
-
+   
     margin-right: 24px;    
     margin-left: 108px;
 }
@@ -1978,6 +1978,10 @@ color: #434455;
         margin-left: 0;
        
 }
+.button-linkp{
+    padding: 12px 24px;
+
+ }
 .foot-input::placeholder{
     font-family: 'Roboto';
         font-style: normal;
@@ -2514,7 +2518,7 @@ line-height: 24px;
 
 letter-spacing: 0.02em;
 
-/* NAVY BLUE */
+
 
 color: #2E2F42;
      }
@@ -2524,12 +2528,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* or 150% */
-
 letter-spacing: 0.02em;
-
-/* SLATE */
-
 color: #434455;
 
      }
@@ -2549,6 +2548,25 @@ color: #434455;
         display: flex;
      }
      .foot-form{
-        display: block;
+        display: flex;
+        margin-left: 0;
+     }
+     .div-footer{
+       margin-right: 0;
+        margin-left: 0;
+        margin-right: 120px;
+     }
+     .social-media{
+        margin-top: 0;
+     }
+     .p-form{
+        margin-left: 0;
+     }
+     .div-subscribe{
+        margin-left: auto;
+     }
+     .button-linkp{
+        padding: 12px 24px;
+
      }
     }
